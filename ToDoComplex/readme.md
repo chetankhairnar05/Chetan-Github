@@ -1,6 +1,6 @@
 # 🗂️ Task & Category Management REST API
 
-A robust Spring Boot-based RESTful API designed for managing tasks and their associated categories. This system supports full CRUD operations, partial updates via PATCH, and comprehensive exception handling, making it ideal for integration with frontend applications or mobile clients.
+A robust and reliable Spring Boot-based RESTful API designed for managing tasks and their associated categories. This system supports full CRUD operations, partial updates via PATCH, and comprehensive exception handling, making it ideal for integration with frontend applications or mobile clients.
 
 ## 🚀 Features
 
@@ -29,3 +29,4 @@ A robust Spring Boot-based RESTful API designed for managing tasks and their ass
 - `mapper/` – Utilities for converting between entities and DTOs.
 - `exception/` – Custom exceptions and global exception handler.
 - `utils/` – Utility classes for timestamp management.
+
