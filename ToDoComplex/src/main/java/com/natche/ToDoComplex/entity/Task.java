@@ -1,10 +1,10 @@
 package com.natche.ToDoComplex.entity;
 import java.time.LocalDateTime;
 
-
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.natche.ToDoComplex.enums.TaskStatus;
 
-
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -42,6 +42,7 @@ public class Task {
     private LocalDateTime ended;
 
     @ManyToOne
-    @JoinColumn(name = "category_id")
+    @JoinColumn(name = "category_id" )
+    @JsonBackReference
     private Category category;
 }
